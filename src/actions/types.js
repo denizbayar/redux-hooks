@@ -1,0 +1,2 @@
+export const FETCH_CUSTOM_NEWS = "FETCH_CUSTOM_NEWS";
+export const FETCH_TECH_NEWS = "FETCH_TECH_NEWS";
