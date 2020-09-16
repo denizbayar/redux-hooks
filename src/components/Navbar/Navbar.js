@@ -4,13 +4,13 @@ import {Link} from 'react-router-dom';
 export default function Navbar() {
     return (
         <div>
-            <nav class="navbar navbar-dark bg-light">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" ><Link to="/">Main</Link></a>
+            <nav className="navbar navbar-dark bg-light">
+                <ul className="nav justify-content-center">
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/">Main</Link>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" ><Link to="/tech">Tech</Link></a>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/tech">Tech</Link>
                     </li>
                 </ul>
             </nav>
